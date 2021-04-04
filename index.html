@@ -19,7 +19,7 @@
 
 <body>
     <!-- Inizio Menu-->
-    <header>
+    <header id="nav-menu">
         <div class="container text-center">
             <nav class="navbar fixed-top navbar-expand-xl navbar-light bg-light">
                 <div class="logo">
@@ -51,8 +51,10 @@
     <!--Fine banner-->
     <!--Section 1-->
     <section id="principale">
-        <h1 class="btn">
+
+        <h1 class="titolo">
             <a href="about.html"> Matteo Navarra</a></h1>
+
         <div class="row no-gutters">
             <div class="col-lg-6 order-lg-2 image-section1"></div>
             <div class="col-lg-6 order-lg-1">
@@ -61,7 +63,7 @@
                     <p>Sempre in continuo studio e apprendimento di nuove tecnologie per rimanere aggiornato e non rimanere mai indietro!</p>
                     <p>adoro il mare, e sono da sempre appassionato di tecnologia ed informatica</p>
                     <p>finalmente sento di aver trovato il "mio" posto nel mondo!</p>
-                    <a class="btn soft-skills" href="about.html">
+                    <a class="btn" href="about.html">
                         <p>Leggi di più </p>
                     </a>
 
@@ -71,75 +73,86 @@
         </div>
     </section>
     <!--Section2-->
-    <section>
+    <section id="principale">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
                 <div class="col-lg-6 order-lg-1 image-s1"></div>
                 <div class="list-text col-lg-6 order-lg-2 ">
-                    <a class="btn soft-skills" href="skills.html"> Hard Skills</a>
-                    <h4>Le mie conoscenze tecniche sempre in continuo sviluppo</h4>
-                    <div class=" col-lg-6 h-100 text-center text-lg-center">
-                        <ul class=" list-text list-inline mb-0">
-                            <li class="list-inline-item mr-3">
-                                <p>HTML5</p><i class="icone-skill fab fa-html5 fa-2x"></i>
-                            </li>
-                            <li class="list-inline-item mr-3">
-                                <p>CSS3</p> <i class="icone-skill fab fa-css3-alt fa-2x "></i>
-                            </li>
-                            <li class="list-inline-item ">
-                                <p>Bootstrap</p> <i class="icone-skill fab fa-bootstrap fa-2x"></i>
-                            </li>
-                            <li class="list-inline-item ">
-                                <p>Git</p> <i class="icone-skill  fab fa-git-alt fa-2x"></i>
-                            </li>
-                            <li class="list-inline-item ">
-                                <p>Github</p> <i class="icone-skill  fab fa-github fa-2x"></i>
-                            </li>
-                        </ul>
+                    <div class="about">
+                        <a class="btn soft-skills" href="skills.html"> Hard Skills</a>
+                        <div class="about">
+                            <h4>Le mie conoscenze tecniche sempre in continuo sviluppo</h4>
+                        </div>
+                        <div class=" col-lg-6 h-100 text-center text-lg-center">
+                            <ul class=" list-text list-inline mb-0">
+                                <li class="list-inline-item mr-3">
+                                    <p>HTML5</p><i class="icone-skill fab fa-html5 fa-2x"></i>
+                                </li>
+                                <li class="list-inline-item mr-3">
+                                    <p>CSS3</p> <i class="icone-skill fab fa-css3-alt fa-2x "></i>
+                                </li>
+                                <li class="list-inline-item ">
+                                    <p>Bootstrap</p> <i class="icone-skill fab fa-bootstrap fa-2x"></i>
+                                </li>
+                                <li class="list-inline-item ">
+                                    <p>Git</p> <i class="icone-skill  fab fa-git-alt fa-2x"></i>
+                                </li>
+                                <li class="list-inline-item ">
+                                    <p>Github</p> <i class="icone-skill  fab fa-github fa-2x"></i>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row no-gutters">
                 <div class="col-lg-6 order-lg-2 image-s2"></div>
                 <div class="col-lg-6 order-lg-1">
-                    <ul class="list-text">
-                        <li><a class="btn soft-skills" href="skills.html"> Soft Skills</a></li>
-                        <li>
-                            <p>Nel corso degli anni grazie al susseguirsi di molte realtà lavorative diverse ho potuto sviluppare diverse soft skills</p>
-                        </li>
-                        <li>Affidabilità</li>
-                        <li>Mente-Aperta</li>
-                        <li>Problem Solving</li>
-                    </ul>
-                    <div class=" col-lg-6 h-100 text-center text-lg-center">
-                        <ul class=" list-text list-inline mb-0">
-                            <li class="list-inline-item mr-3">
-                                <p>problem-solving</p><i class="icone-skill-soft fas fa-cogs fa-2x"></i>
+                    <div class="about">
+                        <ul class="list-text">
+                            <li><a class="btn soft-skills" href="skills.html"> Soft Skills</a></li>
+                            <li>
+                                <p>Nel corso degli anni grazie al susseguirsi di molte realtà lavorative diverse ho potuto sviluppare diverse soft skills</p>
                             </li>
-                            <li class="list-inline-item mr-3">
-                                <p>affidabile</p> <i class="icone-skill-soft fab fa-cloudscale fa-2x"></i>
-                            </li>
-                            <li class="list-inline-item ">
-                                <p>mente aperta</p> <i class="icone-skill-soft fas fa-brain fa-2x"></i>
-                            </li>
-
+                            <li>Affidabilità</li>
+                            <li>Mente-Aperta</li>
+                            <li>Problem Solving</li>
                         </ul>
-                    </div>
 
+                        <div class=" col-lg-6 h-100 text-center text-lg-center">
+                            <ul class=" list-text list-inline mb-0">
+                                <li class="list-inline-item mr-3">
+                                    <p>problem-solving</p><i class="icone-skill-soft fas fa-cogs fa-2x"></i>
+                                </li>
+                                <li class="list-inline-item mr-3">
+                                    <p>affidabile</p> <i class="icone-skill-soft fab fa-cloudscale fa-2x"></i>
+                                </li>
+                                <li class="list-inline-item ">
+                                    <p>mente aperta</p> <i class="icone-skill-soft fas fa-brain fa-2x"></i>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
             <!--Section 3-->
+
+
             <div class="row no-gutters">
                 <div class="col-lg-6 order-lg-1 image-s3"></div>
                 <div class="col-lg-6 order-lg-2 ">
-                    <ul class="list-text">
-                        <li><a class="btn soft-skills" href="portfolio.html">Portfolio</a></li>
-                        <li></li>
-                    </ul>
-                    <p class="portfolio-text">Questa sezione è molto importante e quindi anche se non ho ancora avuto il piacere di lavorare come Sviluppatore junior front end, questa sezione non è vuota ma al suo interno potrai trovare 2 progetti interamente realizzati da me
-                        con le mie conoscenze acquisite grazie al corso di start2impact come Sviluppatore Front-end junior.
-                    </p>
+                    <div class="about">
+                        <ul class="list-text">
+                            <li><a class="btn soft-skills" href="portfolio.html">Portfolio</a></li>
+                            <li></li>
+                        </ul>
+                        <p class="portfolio-text">Questa sezione è molto importante e quindi anche se non ho ancora avuto il piacere di lavorare come Sviluppatore junior front end, questa sezione non è vuota ma al suo interno potrai trovare 2 progetti interamente realizzati da
+                            me con le mie conoscenze acquisite grazie al corso di start2impact come Sviluppatore Front-end junior.
+                        </p>
 
+                    </div>
                 </div>
             </div>
         </div>
@@ -163,9 +176,7 @@
                         <li class="list-inline-item mr-3">
                             <a href="https://www.facebook.com/matteo.navarra.7" target="_blank"><i class="fab fa-facebook-square "></i></a>
                         </li>
-                        <li class="list-inline-item mr-3">
-                            <a href="mailto:infomatteonavarra@gmail.com" target="_blank"><i class="fas fa-envelope "></i></a>
-                        </li>
+
                         <li class="list-inline-item ">
                             <a href="https://github.com/Matteo-Navarra" target="_blank"><i class="fab fa-github-square"></i></a>
                         </li>

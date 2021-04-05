@@ -8,5 +8,4 @@ function sendMail(params) {
         .then(function(res) {
             console.log('succes', res.status);
         })
-
 }

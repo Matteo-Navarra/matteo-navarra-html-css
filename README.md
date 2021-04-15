@@ -1,10 +1,10 @@
 # matteo-navarra-html-css
 
 
-## Questo è il mio primo progetto  realizzato durante il mio percorso su start2impact.
+### Questo è il mio primo progetto  realizzato durante il mio percorso su start2impact.
 
 
-### Tecnologie usate per la realizzazione :
+#### Tecnologie usate per la realizzazione :
 - HTML 
 - CSS 
 - Bootstrap
